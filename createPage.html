@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <title>新規スレッド作成</title>
+</head>
+
+<body>
+<form method="post" action="conf.php">
+    <h1>新規スレッド作成</h1>
+    <div align="center">
+        <table>
+            <tr>
+                <td>掲示板名</td>
+                <td><input type="text" name="ThreadTitle" size="30">
+            </tr>
+            <tr>
+                <td>カテゴリ</td>
+                <td><select name="Category">
+                        <option value="0">病気・災害情報</option>
+                        <option value="1">おもしろ野菜</option>
+                        <option value="2">雑談</option>
+                        <option value="3">おすすめレシピ</option>
+                        <option value="4">報告</option>
+                    </select>
+            </tr>
+        </table>
+        <input type="submit" value="作成">
+    </div>
+</form>
+</body>
+
+</html>

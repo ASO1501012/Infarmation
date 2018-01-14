@@ -1,0 +1,145 @@
+html{
+    background-color: #D5D5D5;
+    height: 100%;
+    background: linear-gradient(-45deg, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)),url(img/test.jpg);
+    background-size:cover;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+body{
+    margin:0 auto;
+    width:1000px;
+    height: auto;
+    background-color:rgba(255, 255, 255, .9);
+}
+header {
+    position:fixed;
+    border-style: hidden;
+    background-color: #808080;
+    width:100%;
+    min-width: 1000px;
+    height: 45px;
+    margin-left: -220px;
+    margin-right: 220px;
+    padding: 0px;
+    z-index: 8;
+    overflow:hidden;
+}
+#loginlogout{
+    width:570px;
+    float:left;
+}
+
+.title{
+    padding-top: 50px;
+    height:45px;
+    font-size:18px;
+    line-height: 47px;
+    padding-left:20px;
+    color:#FFFFFF;
+    background-color: #6B9076;
+    /*background: linear-gradient(-45deg,rgba(255, 91, 82, .8),rgba(255, 255, 97, .8), rgba(255, 42, 44, .8));*/
+}
+
+table{
+    margin-left:250px;
+    margin-top:100px;
+}
+td {
+    top: 20px;
+}
+tr{
+    width: 600px;
+}
+
+input.text{
+    width:330px;
+    height: 50px;
+    box-sizing:border-box;
+    padding: 0px 15px;
+    font-size: 15px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+}
+input.text::-webkit-input-placeholder {
+    color: #B6B6B6;
+}
+input.text::-ms-input-placeholder {
+    color: #B6B6B6;
+}
+input.text::-moz-placeholder {
+    color: #B6B6B6;
+}
+input.focused:invalid {
+    border-bottom-color: red;
+    color: red;
+    &:focus {
+        box-shadow: 0 1px 0 0 red;
+    }
+}
+
+.p{
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgba(222, 184, 135, .3);
+    color:#3a1305;
+    line-height: 52px;
+    vertical-align: middle;
+    text-align: center;
+    padding:auto;
+    margin:3px 0;
+    border-radius: 3px;
+}
+.formbutton{
+    background-color: #6B9076;
+    /*background: linear-gradient(-45deg, rgba(255, 255, 97, .8), rgba(255, 42, 44, .8));*/
+    color:#FFFFFF;
+    width:200px;
+    height:40px;
+    margin-top:25px;
+    border:hidden;
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size:15px;
+    border-radius: 3px;
+    float: right;
+}
+
+.resetbutton{
+    background-color: #6B9076;
+    /*background: linear-gradient(-45deg, rgba(255, 255, 97, .8), rgba(255, 42, 44, .8));*/
+    color:#FFFFFF;
+    width:200px;
+    height:40px;
+    margin-top:25px;
+    border:hidden;
+    margin-left: 5px;
+    font-weight: bolder;
+    font-size:15px;
+    border-radius: 3px;
+}
+
+.formbutton:hover {
+    /* 背景色を明るい青色に指定 */
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* 文字色を白色に指定 */
+    cursor: pointer;
+    color: #fff;
+}
+
+.resetbutton:hover {
+    /* 背景色を明るい青色に指定 */
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* 文字色を白色に指定 */
+    cursor: pointer;
+    color: #fff;
+}
+
+.pass{
+    background-color:transparent;
+    border:hidden;
+    
+}

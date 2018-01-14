@@ -1,0 +1,154 @@
+html{
+    background-color: #f5f5f5;
+    height: 100%;
+    background: linear-gradient(-45deg, rgba(249, 247, 216, .8), rgba(249, 247, 216, .8)),url(img/test.jpg);
+    background-size:cover;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+body{
+    margin:0 auto;
+    width:1000px;
+    height: 100%;
+    background-color:rgba(255, 255, 255, .9);
+}
+header {
+    position:fixed;
+    border-style: hidden;
+    background-color: #808080;
+    width:100%;
+    min-width: 1000px;
+    height: 45px;
+    margin-left: -220px;
+    margin-right: 220px;
+    padding: 0px;
+    z-index: 8;
+    overflow:hidden;
+}
+#loginlogout{
+    width:570px;
+    float:left;
+}
+
+.title{
+    padding-top: 50px;
+    height:45px;
+    font-size:18px;
+    line-height: 47px;
+    padding-left:20px;
+    color:#FFFFFF;
+    background-color: #6B9076;
+    /*background: linear-gradient(-45deg,rgba(255, 91, 82, .8),rgba(255, 255, 97, .8), rgba(255, 42, 44, .8));*/
+}
+
+table{
+    margin: 100px auto;
+}
+
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+td {
+    top: 20px;
+    width:38%;
+    height: 130px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: rgba(222, 184, 135, .3);
+}
+
+input.text{
+    width:330px;
+    height: 50px;
+    box-sizing:border-box;
+    padding: 0px 15px;
+    font-size: 15px;
+    border-top:hidden;
+    border-left:hidden;
+    border-right:hidden;
+}
+input.text::-webkit-input-placeholder {
+    color: #B6B6B6;
+}
+input.text::-ms-input-placeholder {
+    color: #B6B6B6;
+}
+input.text::-moz-placeholder {
+    color: #B6B6B6;
+}
+.p{
+    margin-right: auto;
+    width:auto;
+    font-size: 18px;
+    line-height: 52px;
+    vertical-align: middle;
+    text-align: center;
+    padding:auto;
+    border-radius: 10px;
+}
+.formbutton{
+    margin-top:3px;
+    background-color: #6B9076;
+    color: aliceblue;
+    border: hidden;
+    font-weight: bolder;
+    font-size:13px;
+    border-radius: 5px;
+}
+.formbutton:hover {
+    /* 背景色を明るい青色に指定 */
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    /* 文字色を白色に指定 */
+    cursor: pointer;
+    color: #fff;
+    
+}
+
+.pass{
+    border:hidden;
+
+}
+
+button{
+    background:none;
+    border:0;
+    padding-right: 90px;
+}
+
+.button:hover{
+    cursor: pointer;
+    outline:none;
+}
+
+.button span {
+    margin-left: 95px;
+    margin-top: 35px;
+    display: inline-block;
+    position: absolute;
+}
+.button span:nth-child(1) {
+    font-size:13px;
+
+}
+.button span:nth-child(2) {
+    font-size:13px;
+
+}
+.button:hover span:nth-child(2) {
+    display: none;
+}
+
+.btn{
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    outline:none;
+}
+
+

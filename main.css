@@ -1,0 +1,324 @@
+html{
+    background-image: url('./img/bokoboko.png');
+    background-repeat: repeat;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro',
+        'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+body {
+    margin: 0px;
+}
+
+a:link {color: #000000}
+
+a:visited {
+    color: #000000;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    position:fixed;
+    border-style: hidden;
+    background-color: #808080;
+    width:100%;
+    min-width: 1000px;
+    height: 45px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 8;
+    overflow:hidden;
+}
+#header{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 45px;
+    vertical-align: middle;
+}
+#loginlogout{
+    width:446px;
+    float:left;
+}
+#kensaku{
+    //margin-left:0px;
+    float: right;
+}
+.inoutbtn{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height:25px;
+    border-style: hidden;
+    color: #000000;
+}
+h5{
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+    /*color: #FFFFFF;*/
+    display:inline;
+}
+#searchtype{
+    display: inline-block;
+    border-style: hidden;
+    padding: 0px;
+    margin: 0px;
+    height: 25px;
+    width: 120px;
+}
+.searchtext{
+    border-style: hidden;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 25px;
+}
+.searchbtn{
+    border-style: hidden;
+    padding: 0px;
+    margin-top: 0px;
+    width: 50px;
+    //margin-right: 20px;
+    height: 25px;
+    font-family: HGPｺﾞｼｯｸM;
+    color: #000000;
+}
+#searchtype, .searchtext ,.searchbtn, .inoutbtn{
+    vertical-align: middle;
+}
+
+
+#ranking{
+    right:0px;
+    width:240px;
+    height:auto;
+    max-height:620px;
+    border-radius: 5px;
+    background-color:#BBA881;
+}
+.fixed {
+    top:45px;
+    position: fixed!important;
+}
+.abs {
+    top:790px;
+    position:absolute;
+}
+.s{
+    font-size:small;
+}
+.m{
+    font-size:middle;
+}
+#ranking>div{
+    height:auto;
+    max-height:190px;
+    border-radius: 5px;
+    background-color: #F7F4EF;
+    margin:5px;
+}
+#ranking>div>p{
+    margin:0;
+}
+.mypage{
+    position:absolute;
+    cursor: pointer;
+    z-index: 4;
+    margin-top:50px;
+}
+.category{
+    position: absolute;
+    width: 100px;
+    top: 25px;
+    left: 20px;
+    font-size: small;
+    text-align: center;
+}
+.my{
+    position: absolute;
+    width: 150px;
+    top: 150px;
+    left: 80px;
+    font-size: medium;
+    text-align: center;
+}
+.wood{
+    position: relative;
+    margin-top: 600px;
+    margin-left: auto;
+    z-index: 2;
+    user-select: none;
+}
+.articlecolor{
+    background-color:#F7EDDB;
+}
+
+article.a1{
+    width: 1000px;
+    height: 750px;
+    /*background-color: #C0C0C0;*/
+    margin: 0 auto;
+}
+article.a2{
+    width: 1000px;
+    height: 750px; /*background-color: #C0C034;*/
+    margin: 0 auto;
+}
+article.a3{
+    width: 1000px;
+    height: 750px; //background-color: #C0C0C8;
+    margin: 0 auto;
+}
+.movecloud{
+    position: absolute;
+    cursor: pointer;
+    z-index: 4;
+}
+#c1{
+    margin-top:350px;
+    margin-left:170px;
+}
+#c2{
+    margin-top:260px;
+    margin-left:380px;
+}
+#c3{
+    margin-top:420px;
+    margin-left:360px;
+}
+#c4{
+    margin-top:150px;
+    margin-left:590px;
+}
+#c5{
+    margin-top:320px;
+    margin-left:560px;
+}
+
+#gomypage{
+    margin-top:600px;
+}
+.icononwood{
+    position:absolute;
+    z-index: 3;
+}
+#accountmanager{
+    margin-top: 90px;
+    margin-left: 550px;
+}
+.af{
+    margin-top: 150px;
+    margin-left: 560px;
+}
+
+#toclipboard{
+    margin-top:170px;
+    margin-left:170px;
+}
+.cf{
+    margin-top:230px;
+    margin-left:190px;
+}
+
+#favoritemanager{
+    margin-top:290px;
+    margin-left:550px;
+}
+.ff{
+    margin-top:350px;
+    margin-left:590px;
+}
+
+#tomycon{
+    margin-top:240px;
+    margin-left:370px;
+}
+.pf{
+    margin-top:300px;
+    margin-left:390px;
+}
+.a2>p{
+    position:absolute;
+    z-index: 4;
+    color:#ffffff;
+}
+#notification{
+    margin-top: 380px;
+    margin-left: 100px;
+}
+.gothreadbtn>div>button{
+    background: none;
+    border:hidden;
+    height:200px;
+    width:200px;
+    margin-left: 35px;
+    top:0;
+    //outline: none;
+}
+.gothreadbtn>div>button>img{
+    position:relative;
+}
+.gothreadbtn>div>button>span{
+    color:#ffffff;
+}
+.gothreadbtn1{
+    margin-top:100px;
+    margin-left:135px!important;
+}
+.gothreadbtn5{
+    margin-top:40px;
+}
+.gothreadbtn8{
+    margin-top:40px;
+    margin-left:135px!important;
+}
+.movepagebtn{
+    width:200px;
+    margin:0 auto;
+    margin-top:20px;
+    text-align: center;
+    margin-bottom:20px;
+}
+.kusa{
+    position:absolute;
+    z-index: 5;
+    margin-top:-100px;
+    background: url('img/kusa.png');
+    width:100%;
+    border: 0px;　/* 枠がついてしまうので0にします。 */
+    //border-color: tomato;
+    height: 135px;　/* 画像の高さに合わせました。 */
+}
+.threadname1{
+    position: absolute;
+    margin-top:-130px;
+    margin-left:-60px;
+}
+.threadname2{
+    position: absolute;
+    margin-top:-115px;
+    margin-left:-60px;
+}
+.threadname3{
+    position: absolute;
+    margin-top:-80px;
+    margin-left:-60px;
+}
+.threadname4{
+    position: absolute;
+    margin-top:-125px;
+    margin-left:-60px;
+}
+.threadname5{
+    position: absolute;
+    margin-top:-95px;
+    margin-left:-60px;
+}
+.selection {
+    display: none;
+}
+
+#page-1 {
+    display: block;
+}

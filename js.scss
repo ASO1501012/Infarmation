@@ -1,0 +1,30 @@
+.pm-indicator {
+    margin: 10px 0;
+    padding: 1.5em 1em;
+    background: #e4e4e4;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    color: #2c3e50;
+    font-size: 12px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, .8);
+    text-align: center;
+    transition: all .2s ease-in-out;
+    &.very-weak,
+    &.not-match {
+        background-color: #ffc3cf;
+        border-color: #be1d30;
+    }
+    &.weak {
+        background-color: #ffe6e5;
+        border-color: #ff787d;
+    }
+    &.average {}
+    &.strong {
+        background-color: #bceea6;
+        border-color: #78bc42;
+    }
+    &.very-strong {
+        background-color: #68c6d7;
+        border-color: #4f85a7;
+    }
+}

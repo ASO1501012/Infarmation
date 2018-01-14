@@ -1,0 +1,71 @@
+body{
+    margin:0; /* ページの一番上の隙間を消す */
+}
+
+td {
+    width: 800px;
+    /*background:#58FA82;*/
+    margin: auto;
+    display:flex;  /*flexを使う時に必要？ */
+    justify-content:center; 
+    align-items: center;  /* 上下中央揃え */
+}
+
+input.text{
+    width:300px;height: 50px;
+    box-sizing:border-box;
+    margin-left: 20px;
+    padding: 0px 15px;
+    font-size: 15px;
+}
+
+input.focused:invalid {  
+    border-bottom-color: red;
+    color: red;
+    &:focus {
+        box-shadow: 0 1px 0 0 red;
+    }
+}
+
+.td_top{
+    margin-top:100px;
+}
+
+.p{
+    width: 35%;
+    height: 20px;
+    background:#E6E6E6;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin:3;
+}
+
+.title{
+    font-size: 200%;
+    text-align: center;
+    background: linear-gradient(-45deg, #F7FE2E, #F79F81);
+}
+
+.outer{
+    width: 1000px;
+    margin:auto;
+    height: 100%;
+    position: relative;
+    /*background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)),url(img/test.jpg);
+    background-size:cover;*/
+}
+
+.inner{
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:auto;
+    width: 800px;
+    height: 600px;
+    /*background: #F6CECE; */  
+}
+

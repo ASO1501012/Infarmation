@@ -1,0 +1,95 @@
+header {
+	position:fixed;
+	border-style: hidden;
+	background-color: #808080;
+	width:100%;
+	min-width: 1000px;
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+    top:0px!important;
+	z-index: 8;
+	overflow:hidden;
+}
+#header{
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 45px;
+	vertical-align: middle;
+}
+#clipname{
+    border-style: hidden;
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    height: 25px;
+}
+#createbtn{
+    border-style: hidden;
+    padding: 0px;
+    margin-top: 0px;
+    width: 30px;
+    height: 25px;
+    font-family: HGPｺﾞｼｯｸM;
+    color: #ffffff;
+	background-color: #707070;
+}
+#create{
+    float:left;
+}
+#clipname, #createbtn{
+	vertial-align: middle;
+}
+
+article{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+table{
+    width:600px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    border:none;
+    font-size:15px;
+}
+.text{
+    min-width:550px;
+    max-width:550px;
+    word-wrap:break-word;
+}
+.R{
+    padding-left: 3px;
+    width:200px;
+    vertical-align: top;
+}
+td{
+    padding:10px;
+    border:none;
+}
+.tr1{
+    background-color: #9E8751;
+    color:#ffffff;
+}
+.tr2{
+    background-color: #f9f6d8;
+}
+a{
+    color:#000000;
+    text-decoration:none;
+}
+
+
+#clipnavi{
+    float:left;
+    width:250px;
+    padding-left:50px;
+    background-color:#fdfdfd;
+}
+#contents{
+    float:left;
+    width:700px;
+}

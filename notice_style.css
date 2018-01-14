@@ -1,0 +1,106 @@
+html {
+    background-color: #D5D5D5;
+    height: 100%;
+    background: linear-gradient(-45deg, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url(img/test.jpg);
+    background-size: cover;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    background-color: rgba(255, 255, 255, .9);
+}
+header {
+    position:fixed;
+    border-style: hidden;
+    background-color: #808080;
+    width:100%;
+    min-width: 1000px;
+    height: 45px;
+    margin-left: -220px;
+    margin-right: 220px;
+    padding: 0px;
+    z-index: 8;
+    overflow:hidden;
+}
+#loginlogout{
+    width:570px;
+    float:left;
+}
+
+.notice {
+    margin-left: 100px;
+    width: 800px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.p {
+    width: 160px;
+    height: 50px;
+    font-size: 15px;
+    background-color: rgba(222, 184, 135, .3);
+    color: #3a1305;
+    line-height: 52px;
+    vertical-align: middle;
+    text-align: center;
+    padding: auto;
+    margin: 3px 0;
+    border-radius: 3px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: none;
+}
+
+tr {}
+
+td {
+    background-color: rgba(222, 184, 135, .3);
+}
+
+.noticetop {
+    width: 600px;
+    height: 80;
+    text-align: center;
+}
+
+.noticebottm {
+    padding-top: 0px;
+    width: 600px;
+    text-align: center;
+    border-bottom: 20px;
+}
+
+.threadName {
+    padding-top: 20px;
+    border-spacing: 5px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.userName {
+    padding-left: 50px;
+    text-align: left;
+    float: left;
+}
+
+.write {
+    width: 200px;
+    padding-right: 50px;
+    float: right;
+}
+
+.selection {
+    display: none;
+}
+
+#page-1 {
+    display: block;
+    padding-left: 190px;
+}

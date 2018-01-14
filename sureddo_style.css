@@ -1,0 +1,114 @@
+html{
+    background-color:#D5D5D5;
+    background: linear-gradient(-45deg, rgba(249, 247, 216, .8), rgba(249, 247, 216, .8)),url(img/test.jpg);
+    background-size:cover;
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro',
+     'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+body {
+    margin: 0px;
+    height: 100%;
+}
+header {
+	position:fixed;
+	border-style: hidden;
+	background-color: #808080;
+	width:100%;
+	min-width: 1000px;
+	height: 45px;
+	margin: 0px;
+	padding: 0px;
+    top:0px!important;
+	z-index: 8;
+	overflow:hidden;
+}
+img {
+    border-style:none;
+}
+
+#header{
+	padding-top: 10px;
+	margin: 0 auto;
+	width: 1000px;
+	height: 45px;
+	vertical-align: middle;
+}
+#new{
+    background:none;
+}
+#inheader{
+    float:right;
+}
+
+.title{
+    margin-top:45px;
+    height:45px;
+    font-size:18px;
+    line-height: 47px;
+    padding-left:20px;
+    color:#FFFFFF;
+    background-color:#6B9076;
+}
+article{
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	background-color: #ffffff;
+}
+
+table{
+    width:800px;
+    margin:0 auto;
+    margin-bottom: 30px;
+    border:none;
+    font-size:15px;
+}
+.text{
+    min-width:600px;
+    max-width:600px;
+    word-wrap:break-word;
+}
+.R{
+    padding-left: 3px;
+    width:200px;
+    vertical-align: top;
+}
+td{
+    padding:10px;
+    border:none;
+}
+.tr1{
+    background-color: #9E8751;
+    color:#ffffff;
+}
+.tr2{
+    background-color: #f9f6d8;
+}
+
+input[type=submit], button{
+    border-style:none;
+}
+
+.contribution{
+    margin-right: 100px;
+    float:right;
+}
+button{
+    padding: 3px;
+}
+#submit{
+    width: 20px;
+    height: 19px;
+    background: url('img/iine.png') left top no-repeat;
+}
+.r>form>button ,.r>button , .r>input[type=submit]{
+    //vertical-align:middle;
+	background: none;
+}
+.selection {
+    display: none;
+}
+
+#page-1 {
+    display: block;
+}

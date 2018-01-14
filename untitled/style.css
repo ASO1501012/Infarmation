@@ -1,0 +1,44 @@
+body {
+  margin: 5px;
+  border-collapse: collapse;
+}
+
+#table {
+  margin: 0 auto;
+  display: table;
+  width: 500px;
+}
+
+.row1 {
+  height: 5px;
+  display: table-row;
+}
+
+.row1>div {
+  display: table-cell;
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid;
+  background-color: #eeeab4;
+}
+
+.row2 {
+  height: 100px;
+  display: table-row;
+}
+
+.row2>div {
+  display: table-cell;
+  margin: 5px;
+  padding: 5px;
+  border: 5px solid;
+  background-color: rgb(146, 245, 170)
+}
+
+.L {
+  width: 400px;
+}
+
+.R {
+  width: 100px;
+}
